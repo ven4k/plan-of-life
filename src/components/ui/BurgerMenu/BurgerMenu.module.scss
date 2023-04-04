@@ -43,7 +43,10 @@
   top: 8px;
 }
 .menuBox {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   top: 0;
   right: -100%;
@@ -69,4 +72,9 @@
 }
 .menuItem:hover {
   background-color: #CFD8DC;
+}
+.headerBtn {
+  background: #D2E1FF;
+  color: #3A79FF;
+  margin-left: 10px;
 }

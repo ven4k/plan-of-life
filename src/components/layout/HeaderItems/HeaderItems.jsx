@@ -19,7 +19,7 @@ export const HeaderItems = () => {
                 <Link>Pricing</Link>
                 <Link>Documentation</Link>
             </nav>
-            <nav className={`${styles.rightContentWrapper} ${noVisible && styles.noVisible}`}>
+            <nav className={styles.rightContentWrapper}>
                 <Link><img src={facebook} alt="facebookIco" /></Link>
                 <Link><img src={telegram} alt="telegramIco" /></Link>
                 <Link><img src={twitter} alt="twitterIco" /></Link>
