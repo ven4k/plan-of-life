@@ -8,10 +8,10 @@ import styles from './HeaderItems.module.scss';
 
 
 
-export const HeaderItems = ({noVisible}) => {
+export const HeaderItems = () => {
     return (
         <>
-            <nav className={`${styles.leftContentWrapper} ${noVisible && styles.noVisible}`}>
+            <nav className={styles.leftContentWrapper}>
                 <Link><div className={styles.logo}></div></Link>
                 <Link className={styles.activeLink}>Home</Link>
                 <Link>Blog</Link>
