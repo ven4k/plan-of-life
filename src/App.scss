@@ -1,0 +1,10 @@
+.App {
+  margin: 0 auto;
+  width: 1440px;
+}
+@media screen and (min-width: 280px) and (max-width: 520px) {
+  .App{
+    max-width: 520px;
+  }
+}
+

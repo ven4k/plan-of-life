@@ -1,0 +1,72 @@
+.getStarted {
+    width: 100%;
+    height: 447px;
+    background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h6 {
+        margin: 91px 0 0 0;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 0.625rem;
+        line-height: 0.75rem;
+        letter-spacing: 0.1em;
+        color: #fff;
+    }
+
+    h2 {
+        margin: 16px 0 0 0;
+        font-family: 'Quicksand';
+        font-weight: 300;
+        font-size: 3rem;
+        line-height: 3.75rem;
+        color: #fff;
+    }
+
+    p {
+        margin: 28px 0 0 0;
+        width: 712px;
+        height: 78px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 0.938rem;
+        line-height: 1.813rem;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #fff;
+    }
+
+    .btnsBlock {
+        display: flex;
+        margin: 28px 0 0 0;
+
+        .viewPricing {
+            width: 130px;
+            background: #fff;
+            box-shadow: 0px 5px 15px #6480E8;
+        }
+
+        .readDocumentation {
+            width: 155px;
+            height: 43px;
+            border: 1px solid #A0B4FF;
+            background: none;
+            font-weight: 500;
+            font-size: 0.813rem;
+            color: #C7D3FF;
+        }
+    }
+}
+@media screen and (max-width: 520px ) {
+    .getStarted {
+        max-width: 520px;
+        height: 447px;
+        p {
+            margin: 28px 0 0 0;
+            max-width: 500px;
+        }
+    
+}
+}

@@ -1,0 +1,104 @@
+.numberUsers {
+    width: 100%;
+    height: 342px;
+    display: flex;
+
+    .leftUserBlock {
+        background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+        display: flex;
+        width: 720px;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-right: 90px;
+
+        img {
+            margin: 66px 0 24px 0;
+            width: 66px;
+            height: 66px;
+        }
+
+        span {
+            font-family: 'Quicksand';
+            font-weight: 400;
+            font-size: 3rem;
+            line-height: 5.188rem;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+        }
+
+        p {
+            width: 260px;
+            font-family: 'Quicksand';
+            font-weight: 500;
+            font-size: 1.125rem;
+            line-height: 1.438rem;
+            text-align: right;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+
+        }
+    }
+
+    .rightUserBlock {
+        padding-left: 90px;
+        width: 720px;
+        background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
+        display: flex;
+        flex-direction: column;
+
+        img {
+            margin: 70px 0 24px 0;
+            width: 71px;
+            height: 62px;
+        }
+
+        span {
+            font-family: 'Quicksand';
+            font-weight: 400;
+            font-size: 3rem;
+            line-height: 5.188rem;
+            letter-spacing: 0.03em;
+            color: #5E80FF;
+        }
+
+        p {
+            width: 260px;
+            font-family: 'Quicksand';
+            font-weight: 500;
+            font-size: 1.125rem;
+            line-height: 1.438rem;
+            letter-spacing: 0.03em;
+            color: #5E80FF;
+        }
+    }
+}
+@media screen and (max-width: 520px) {
+    .numberUsers {
+        max-width: 520px;
+        height: 342px;
+        display: flex;
+    
+        .leftUserBlock {
+            max-width: 260px;
+            padding-right: 20px;
+            span {
+                font-size: 2.8rem;
+            }
+            p {
+                width: 220px;
+                font-size: 1rem;
+            }
+        }
+        .rightUserBlock {
+            padding-left: 20px;
+            max-width: 260px;
+            span {
+                font-size: 2.8rem;
+            }
+            p {
+                width: 220px;
+                font-size: 1rem;
+            }
+        }
+    }   
+}

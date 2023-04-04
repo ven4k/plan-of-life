@@ -1,0 +1,273 @@
+.ourResources {
+    width: 100%;
+    height: 865px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    background: #F5F8FF;
+
+    .prevArrow {
+        bottom: 403px;
+        left: 143px;
+        position: absolute;
+    }
+
+    .nextArrow {
+        right: 143px;
+        bottom: 403px;
+        position: absolute;
+    }
+
+    .slidersDots {
+        margin-top: 101px;
+        width: 48px;
+        height: 8px;
+        display: flex;
+        justify-content: space-between;
+
+        div {
+            border-radius: 50%;
+            background-color: #D1D6E3;
+            width: 8px;
+            height: 8px;
+        }
+        .activeDot{
+            background-color: #5283FF;
+        }
+
+    }
+
+    h6 {
+        margin: 104px 0 0 0;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 0.625rem;
+        line-height: 0.75rem;
+        letter-spacing: 0.1em;
+        color: #3D4F9F;
+    }
+
+    h2 {
+        margin: 20px 0 0 0;
+        font-family: 'Quicksand';
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+        color: #3D4F9F;
+
+    }
+
+    .slider {
+        border: 2px solid;
+        margin: 92px 0 0 0;
+        display: flex;
+        width: 958px;
+        height: 394px;
+        padding: 64px 35px;
+        background-color: #fff;
+
+        h3 {
+            margin: 0;
+            font-family: 'Quicksand';
+            font-weight: 400;
+            font-size: 2.25rem;
+            line-height: 2.813rem;
+            color: #3D4F9F;
+        }
+
+        p {
+            margin: 32px 0 31px 0;
+            width: 408px;
+            height: 116px;
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 0.875rem;
+            line-height: 1.688rem;
+            letter-spacing: 0.03em;
+            color: #8D96BD;
+        }
+
+
+        .pictureBlock {
+            margin: 0 67px 0 0;
+            width: 407px;
+            height: 267px;
+            position: relative;
+            display: flex;
+
+            .searchIco {
+                position: absolute;
+                top: 101px;
+                left: 101px;
+            }
+
+            .bigPicture {
+                position: relative;
+                margin: 0;
+                width: 267px;
+                height: 267px;
+
+                img {
+                    top: -87px;
+                    left: -102px;
+                    position: absolute;
+                }
+            }
+
+            .smallPictures {
+                position: relative;
+                width: 126px;
+                height: 267px;
+                margin-left: 13px;
+
+                img {
+                    position: absolute;
+                }
+
+                .sSmall {
+                    top: -87px;
+                    left: -102px;
+                }
+
+                .fSmall {
+                    top: 53px;
+                    left: -102px;
+                }
+            }
+
+        }
+
+        .btnsBlock {
+            .readNow{
+                background: #D2E1FF;
+                color: #3A79FF;
+            }
+            span {
+                margin-left: 23px;
+                display: inline-block;
+                font-family: 'Quicksand';
+                font-weight: 700;
+                font-size: 0.813rem;
+                line-height: 1rem;
+                color: #A6B6DA;
+            }
+        }
+    }
+
+}
+@media screen and (max-width: 520px) {
+    .ourResources {
+        max-width: 520px;
+        height: 625px;
+    
+        .prevArrow {
+            bottom: 283px;
+            left: 13px;
+        }
+    
+        .nextArrow {
+            right: 13px;
+            bottom: 283px;
+        }
+    
+        .slidersDots {
+            margin-top: 42px;
+            width: 62px;
+        }
+    
+        h6 {
+            margin: 64px 0 0 0;
+            font-size: 0.625rem;
+            line-height: 0.75rem;
+        }
+    
+        h2 {
+            margin: 20px 0 0 0;
+            font-size: 1.5rem;
+            line-height: 1.875rem;
+        }
+    
+        .slider {
+            border: 2px solid;
+            margin: 42px 0 0 0;
+            width: 420px;
+            height: 310px;
+            padding: 0;
+
+            h3 {
+                width: 204px;
+                margin: 10px 0 0 0;
+                font-size: 1.25rem;
+                line-height: 1.813rem;
+            }
+    
+            p {
+                margin: 10px 0 0 0;
+                width: 204px;
+                height: 116px;
+                font-size: 0.625rem;
+                line-height: 1rem;
+            }
+    
+    
+            .pictureBlock {
+                margin: 0;
+                width: 210px;
+                height: 310px;
+    
+                .searchIco {
+                    top: 70px;
+                    left: 74px;
+                }
+    
+                .bigPicture {
+                    margin: 0;
+                    width: 160px;
+                    height: 200px;
+    
+                    img {
+                        width: 330px;
+                        top: -52px;
+                        left: -62px;
+                    }
+                }
+    
+                .smallPictures {
+                    width: 140px;
+                    height: 267px;
+                    margin-left: 13px;
+    
+                    img {
+                        width: 230px;
+                    }
+    
+                    .sSmall {
+                        top: 150px;
+                        left: -78px;
+                    }
+    
+                    .fSmall {
+                        top: 150px;
+                        left: -178px;
+                    }
+                }
+    
+            }
+            .btnsBlock {
+                .readNow{
+                    max-width: 200px;
+                    height: 33px;
+                }
+                span {
+                    margin: 10px 0 0 23px;
+                    font-size: 0.813rem;
+                    line-height: 1rem;
+
+                }
+            }
+        }
+    
+    }
+    
+}

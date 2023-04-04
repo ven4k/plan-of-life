@@ -1,0 +1,107 @@
+.customerHelp {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 964px;
+    width: 100%;
+    background: #fff;
+
+    h6 {
+        width: 93px;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 0.625rem;
+        line-height: 0.75rem;
+        letter-spacing: 0.1em;
+        color: #3D4F9F;
+        margin: 176px 0 0 0;
+    }
+
+    h2 {
+        width: 311px;
+        font-family: 'Quicksand';
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+        color: #3D4F9F;
+        margin: 20px 0 0 0;
+    }
+
+    .listBlock {
+        width: 743px;
+        margin: 68px 0 0 0;
+
+        .listItem {
+            margin: 0 0 17px 0;
+            width: 743;
+            height: 60px;
+            border-bottom: 1px solid #D8E3FE;
+
+            img {
+                margin: 0 24px 0 0
+            }
+        }
+
+        .opened {
+            margin: 0 0 17px 0;
+            width: 743;
+            height: 176px;
+            border-bottom: 1px solid #D8E3FE;
+
+            img {
+                margin: 0 24px 0 0;
+                transform: rotate(180deg)
+            }
+
+            div {
+                display: flex;
+
+                p {
+                    margin: 16px 62px 0 80px;
+                    width: 391px;
+                    height: 62px;
+                    font-family: 'Roboto';
+                    font-weight: 400;
+                    font-size: 0.875rem;
+                    line-height: 1.688rem;
+                    letter-spacing: 0.03em;
+                    color: #8D96BD;
+                }
+
+                .documentation {
+                    margin: 21px 0 0 0;
+                    width: 195px;
+                    font-weight: 500;
+                    font-size: 0.813rem;
+                    line-height: 1rem;
+                    color: #7382A3;
+                    background: #E8ECF4;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    .customerHelp {
+        height: 760px;
+        max-width: 520px;
+        h6 {
+            margin: 40px 0 0 0;
+        }
+        h2 {
+            max-width: 311px;
+            margin: 20px 0 0 0;
+        }
+        .listBlock {
+            max-width: 490px;
+            margin: 68px 0 0 0;
+            .listItem {
+                margin: 0 0 17px 0;
+                max-width: 500px;
+            }
+        }
+    }
+}
